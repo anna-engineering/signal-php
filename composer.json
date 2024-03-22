@@ -1,0 +1,10 @@
+{
+    "name": "a/signal",
+    "description": "Signal Slot library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "A\\": "src/A/"
+        }
+    }
+}

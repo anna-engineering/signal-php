@@ -1,0 +1,41 @@
+# Auto detect text files
+*       text=auto
+
+# Text Files
+*.txt   text
+*.md    text
+*.xml   text
+*.html  text
+*.css   text
+*.scss  text
+*.js    text
+*.ts    text
+*.json  text
+*.yml   text
+*.yaml  text
+*.php   text
+*.phtml text
+*.svg   text
+
+# Text Files with LF as line break
+*.sh    text eol=lf
+
+# Text Files with CRLF as line break
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# Binary Files
+*.bmp   binary
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+
+# Binary Files - (not real binary files)
+*.min.js  binary
+*.min.css binary
